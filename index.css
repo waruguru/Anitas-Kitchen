@@ -1,0 +1,121 @@
+body{
+    margin: 0;
+    font-family: 'Handlee', Open Sans;
+}
+#header{
+    padding: 20px;
+    background-image: url(assets/backgrounds/landing.jpg);
+    background-repeat: no-repeat;
+    /* height: 200px; */
+    width: 100%;
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    
+}
+#header p{
+    /* text-align: center; */
+    font-size:xx-large;
+    color: white;
+    margin: 2px;
+}
+main{
+    display: flex;
+    text-align: center;
+    height: 200px;
+    width: 100%;
+    /* margin: 10px; */
+    margin-top: 410px;
+    position: absolute;
+    color:white ;
+    
+
+}
+main>div{
+    border: violet;
+    width: 25%;
+}
+#zero{
+    display: flex;
+    flex-direction: column;
+}
+#zero p{
+margin-top: 60px;
+}
+
+#first{
+    background-color: lightgray;
+    color: black;
+    height: 50%;
+    margin-top: 0px;
+    
+}
+#second{
+
+    background-color: orange;
+    height: 50%;
+    margin-top: 0px;
+}
+#third{
+    background-image: url(assets/foodtop/breakfast.jpg);
+    background-position: center;
+  
+}
+#third p{
+    margin-top: 80px;
+    font-style: italic;
+}
+#fourth{
+    background-image: url(assets/foodtop/lunch.jpg);
+    background-position: center;
+    opacity: 0.6;
+}
+#fourth p{
+    margin-top: 80px;
+    font-style: italic;
+}
+#fifth{
+    background-image: url(assets/foodtop/dinner.jpg);
+    background-position: center;
+}
+#fifth  p{
+margin-top: 80px;
+font-style: italic;
+}
+#Fast Food{
+    display: flex;
+    text-align: center;
+    width: 50%;
+    margin-left: 25px;
+}
+#fast_food{ 
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    margin-top: 600px;
+}
+
+#images{
+    border: 10px solid white;
+    box-shadow: 0px 0px 5px grey;
+    height: 100%;
+    width: 350px;
+    margin-top: 30px;
+    margin-left: 250px;
+
+
+}
+#image1{
+    background-image: url(assets/fastFood1.jpg);
+    background-repeat: no-repeat;
+    height: 50%;
+    width: 100%;
+
+}
+#image2{
+    background-image: url(assets/fastFood2.jpg);
+    background-repeat: no-repeat;
+    height: 50%;
+
+}
