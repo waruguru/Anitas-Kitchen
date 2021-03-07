@@ -355,11 +355,11 @@ ul#horizontal-list {
         position: absolute;
         width: 100%;
         height: 500px;
-        top: 2548px;
+        top: 2230px;
         left: 0px;
         text-align: center;
         justify-content: center;
-        border: springgreen solid 3px;
+        border: white solid 3px;
     }
     
     #testimonials {
@@ -375,6 +375,7 @@ ul#horizontal-list {
         margin-left: auto;
         margin-right: auto;
         margin-top: 80px;
+        /* border: yellow solid 3px; */
     }
     
     #testimonials div {
