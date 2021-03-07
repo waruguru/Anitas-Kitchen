@@ -202,15 +202,46 @@ font-style: italic;
     justify-content: center; */
    /* border: green solid 5px;
 }  */
-.content2btn{
+/* .content2btn{
     background-color: transparent;
-    border: yellow solid 2px;
+    border: white solid 2px;
  padding-right: 10px;
     padding-left: 10px;
     padding: 5px;
-color: tomato;
+color: tomato; */
 
+/* } */
+.button_link {
+    margin-top: 40px;
 }
+
+.button_link a {
+    border: 2px solid #F15A29;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.button_link a:link {
+    font-family: sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #F15A29;
+}
+
+.button_link a:visited {
+    font-family: sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #F15A29;
+}
+
+.button_link a:hover {
+    font-family: sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    box-shadow: 0px 0px 2px #444444;
+}
+
 
 .menu{
     background-image:url(assets/backgrounds/foodsBg.jpg) ;
@@ -320,6 +351,177 @@ ul#horizontal-list {
 		display: inline;
         background-color: transparent;
 	} 
+    #testimonials_container {
+        position: absolute;
+        width: 100%;
+        height: 500px;
+        top: 2548px;
+        left: 0px;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    #testimonials {
+        position: relative;
+        background-color: white;
+        width: 70%;
+        height: 75%;
+        text-align: center;
+        box-shadow: 0px 0px 5px gray;
+        display: flex;
+        flex-direction: row;
+        font-size: small;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 80px;
+    }
+    
+    #testimonials div {
+        width: 50%;
+        padding: 40px;
+    
+    }
+    
+    #testimonials div p {
+        font-family: sans-serif;
+        font-size: 18px;
+    }
+    
+    #customers_pics {
+        display: flex;
+        text-align: center;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin: auto;
+        height: 30px;
+    }
+    
+    #p1 {
+        background-image: url(assets/customers/p1.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        transform: scale(0.8);
+        margin: 5px;
+    }
+    
+    #p2 {
+        background-image: url(assets/customers/p2.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        margin: 5px;
+    }
+    
+    #p3 {
+        background-image: url(assets/customers/p3.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        transform: scale(0.8);
+        margin: 5px;
+    }
+    
+    #customers_pics div i {
+        color: #F15A29;
+        font-size: x-large;
+        position: absolute;
+    
+    }
+    
+    #customers h4 {
+        color: #F15A29;
+    }
+    
+    #about_menu h4 {
+        color: #F15A29;
+    }
+    #email_section {
+        position: absolute;
+        top: 3070px;
+        left: 0;
+        background-image: url(assets/backgrounds/subscribe.jpg);
+        width: 100%;
+        height: 400px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    
+    
+    #form {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 30%;
+        margin-left: 35%;
+        margin-right: 35%;
+    }
+    
+    #cta {
+        margin-top: 140px;
+    }
+    
+    #email {
+        background-color: rgba(255, 255, 255, 0.521);
+        width: 60%;
+        text-align: left;
+        padding: 15px;
+        border-radius: 4px;
+    }
+    
+    #subscribe {
+        background-color: #F15A29;
+        width: 25%;
+        text-align: center;
+        padding: 15px;
+        border-radius: 4px;
+    }
+    
+    #footer {
+        color: white;
+        position: absolute;
+        background-color: #f15b29;
+        height: 370px;
+        width: 100%;
+        top: 3470px;
+        left: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    
+    #ftr_logo {
+        font-size: 35px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    #ftr_logo img {
+        padding-top: 30px;
+        padding-right: 5px;
+    }
+    
+    #footer>p {
+        text-transform: capitalize;
+        text-align: center;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    
+    #social_media {
+        text-align: center;
+    }
+    
+    #last {
+        font-size: 15px;
+        margin-top: 70px;
+    }
 
 
 
