@@ -359,6 +359,7 @@ ul#horizontal-list {
         left: 0px;
         text-align: center;
         justify-content: center;
+        border: springgreen solid 3px;
     }
     
     #testimonials {
